@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(gemini:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(git:*)",
+      "Bash(gh:*)"
     ],
     "deny": []
   }
