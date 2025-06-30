@@ -1,14 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "Bash(gemini:*)",
-      "Bash(ls:*)",
-      "Bash(git:*)",
-      "Bash(gh:*)",
-      "Bash(rg:*)",
-      "Bash(fd:*)",
       "Bash(bat:*)",
-      "Bash(jq:*)"
+      "Bash(fd:*)",
+      "Bash(gemini:*)",
+      "Bash(gh:*)",
+      "Bash(git:*)",
+      "Bash(grep:*)",
+      "Bash(jq:*)",
+      "Bash(ls:*)",
+      "Bash(rg:*)"
     ],
     "deny": []
   }
