@@ -4,7 +4,11 @@
       "Bash(gemini:*)",
       "Bash(ls:*)",
       "Bash(git:*)",
-      "Bash(gh:*)"
+      "Bash(gh:*)",
+      "Bash(rg:*)",
+      "Bash(fd:*)",
+      "Bash(bat:*)",
+      "Bash(jq:*)"
     ],
     "deny": []
   }
