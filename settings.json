@@ -9,9 +9,11 @@
       "Bash(grep:*)",
       "Bash(jq:*)",
       "Bash(ls:*)",
+      "Bash(npm:*)",
       "Bash(rg:*)",
-      "Update(*)",
-      "Write(*)"
+      "Edit(**)",
+      "Update(**)",
+      "Write(**)"
     ],
     "deny": []
   }
