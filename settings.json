@@ -17,5 +17,19 @@
       "mcp__gemini-cli__ask-gemini"
     ],
     "deny": []
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path' | xargs sed -i -e '$a\\'"
+          }
+        ]
+      }
+    ]
   }
+  "model": "opus"
 }
