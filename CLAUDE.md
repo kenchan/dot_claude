@@ -23,3 +23,9 @@ Always prefer these modern tools over traditional Unix utilities for better perf
 ## Web Search
 
 **IMPORTANT**: Never use the WebSearch tool. Always use the `/gemini-search` slash command for web searches.
+
+## General Search
+
+**IMPORTANT**: When performing any searches (web search, code search, file search, etc.), always use gemini-mcp tools:
+- Use `mcp__gemini-cli__ask-gemini` for general searches and analysis
+- This applies to ALL types of searches, not just web searches
