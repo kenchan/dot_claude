@@ -12,7 +12,7 @@
       "Bash(npm:*)",
       "Bash(rg:*)",
       "Edit(**)",
-      "Update(**)",
+      "MultiEdit(**)",
       "Write(**)",
       "mcp__gemini-cli__ask-gemini"
     ],
