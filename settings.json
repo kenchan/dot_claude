@@ -29,6 +29,17 @@
           }
         ]
       }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ -d ~/.claude/.git ]; then pushd ~/.claude/projects; git add -A; git commit -m \"$(date)\"; git pull --rebase; git push; popd; fi"
+          }
+        ]
+      }
     ]
   },
   "model": "opus"
