@@ -20,12 +20,13 @@ When working with files and searching, use these modern tools that are installed
 
 Always prefer these modern tools over traditional Unix utilities for better performance and user experience.
 
-## Web Search
+## Search Guidelines
 
-**IMPORTANT**: Never use the WebSearch tool. Always use the `/gemini-search` slash command for web searches.
+**Web Search**: Never use the WebSearch tool. Always use the `/gemini-search` slash command for web searches.
 
-## General Search
+**General Analysis**: Use `mcp__gemini-cli__ask-gemini` for:
+- Analyzing large files with @file syntax
+- Getting AI opinions or analysis
+- Complex code understanding tasks
 
-**IMPORTANT**: When performing any searches (web search, code search, file search, etc.), always use gemini-mcp tools:
-- Use `mcp__gemini-cli__ask-gemini` for general searches and analysis
-- This applies to ALL types of searches, not just web searches
+**File Search**: Use standard tools (Grep, Glob, Task, etc.) for file and code searches
