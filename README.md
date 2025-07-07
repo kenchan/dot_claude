@@ -6,6 +6,7 @@ This directory contains personal configuration files for Claude Code.
 
 - `CLAUDE.md` - Global instructions and preferences for Claude Code across all projects
 - `settings.json` - Security settings and allowed commands configuration
+- `register_mcp.sh` - Script to register MCP servers (gemini-cli, aws-docs) in Claude's configuration
 
 ## Purpose
 
