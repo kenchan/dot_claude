@@ -2,6 +2,7 @@
 
 claude mcp add gemini-cli -s user -- npx -y gemini-mcp-tool
 claude mcp add aws-docs -s user -- uvx awslabs.aws-documentation-mcp-server@latest -e FAST_LOG_LEVEL=ERROR -e AWS_DOCUMENTATION_PARTITION=aws
+claude mcp add playwright -s user -- npx -y @playwright/mcp@latest --cdp-endpoint http://localhost:9222
 
 # Execute local registration script if it exists
 if [ -f "$(dirname "$0")/register_mcp.local.sh" ]; then
