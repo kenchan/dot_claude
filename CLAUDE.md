@@ -53,3 +53,19 @@ When working with files and searching, use these modern tools that are installed
   - Example: `jq '.key' file.json`
 
 Always prefer these modern tools over traditional Unix utilities for better performance and user experience.
+
+## Git Commit Guidelines
+
+Follow [Conventional Commits](https://www.conventionalcommits.org/) specification:
+
+**Format**: `<type>[optional scope]: <description>`
+
+**Examples**:
+```
+feat: implement GitHub Issues vectorizer with metadata support
+fix: resolve PLaMo embedding model CUDA detection error
+docs: add code and documentation guidelines
+refactor: improve core module documentation and code quality
+test: add unit tests for DocumentProcessor class
+chore: migrate to uv dependency management
+```
